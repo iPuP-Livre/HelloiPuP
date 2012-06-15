@@ -13,6 +13,8 @@
 		E0D9031214EBF8760072EECD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0D9031014EBF8760072EECD /* InfoPlist.strings */; };
 		E0D9031414EBF8760072EECD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D9031314EBF8760072EECD /* main.m */; };
 		E0D9031814EBF8760072EECD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D9031714EBF8760072EECD /* AppDelegate.m */; };
+		E0D9032A14EC1C5D0072EECD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D9032814EC1C5D0072EECD /* RootViewController.m */; };
+		E0D9032B14EC1C5D0072EECD /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D9032914EC1C5D0072EECD /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		E0D9030714EBF8760072EECD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0D9030914EBF8760072EECD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E0D9030B14EBF8760072EECD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E0D9030F14EBF8760072EECD /* HelloiPuP-Info.plist */ = {isa = PBXFileReference; path = "HelloiPuP-Info.plist"; sourceTree = "<group>"; };
+		E0D9030F14EBF8760072EECD /* HelloiPuP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloiPuP-Info.plist"; sourceTree = "<group>"; };
 		E0D9031114EBF8760072EECD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0D9031314EBF8760072EECD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E0D9031514EBF8760072EECD /* HelloiPuP-Prefix.pch */ = {isa = PBXFileReference; path = "HelloiPuP-Prefix.pch"; sourceTree = "<group>"; };
-		E0D9031614EBF8760072EECD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0D9031514EBF8760072EECD /* HelloiPuP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloiPuP-Prefix.pch"; sourceTree = "<group>"; };
+		E0D9031614EBF8760072EECD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0D9031714EBF8760072EECD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0D9032714EC1C5D0072EECD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E0D9032814EC1C5D0072EECD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E0D9032914EC1C5D0072EECD /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +79,9 @@
 			children = (
 				E0D9031614EBF8760072EECD /* AppDelegate.h */,
 				E0D9031714EBF8760072EECD /* AppDelegate.m */,
+				E0D9032714EC1C5D0072EECD /* RootViewController.h */,
+				E0D9032814EC1C5D0072EECD /* RootViewController.m */,
+				E0D9032914EC1C5D0072EECD /* RootViewController.xib */,
 				E0D9030E14EBF8760072EECD /* Supporting Files */,
 			);
 			path = HelloiPuP;
@@ -141,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0D9031214EBF8760072EECD /* InfoPlist.strings in Resources */,
+				E0D9032B14EC1C5D0072EECD /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +162,7 @@
 			files = (
 				E0D9031414EBF8760072EECD /* main.m in Sources */,
 				E0D9031814EBF8760072EECD /* AppDelegate.m in Sources */,
+				E0D9032A14EC1C5D0072EECD /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
